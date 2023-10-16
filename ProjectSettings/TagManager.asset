@@ -5,11 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - PickUp
+  - SpeedBoost
+  - JumpBoost
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - groundLayer
   - Water
   - UI
   - 
