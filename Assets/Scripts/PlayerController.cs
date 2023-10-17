@@ -95,10 +95,6 @@ public class PlayerController : MonoBehaviour
             count += 1;
             SetCountText();
         }
-        if (other.gameObject.CompareTag("JumpBoost"))
-        {
-            rb.AddForce(new Vector3(0, jumpForce + 1000, 0), ForceMode.Acceleration);
-        }
     }
 
     void SetCountText()
